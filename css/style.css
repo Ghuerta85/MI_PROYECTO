@@ -1,0 +1,60 @@
+p { font-style: normal; 
+	font-variant: small-caps; 
+	font-weight: bold; 
+	font-size: 1.5em; 
+	line-height: 1.5; 
+	font-family: Arial, sans-serif; 
+	} 
+div 
+{       margin-top: 5px; 
+		margin-right: 10px; 
+		margin-bottom: 5px; 
+		margin-left: 10px; 
+		padding-top: 3px; 
+		padding-right: 5px; 
+		padding-bottom: 10px; 
+		padding-left: 7px; 
+} 
+
+h1 { background-color: red; 
+	background-image: url("imagenes/icono.png"); 
+	background-repeat: 
+	no-repeat; 
+	background-position: 10px 5px; 
+}
+
+#contenedor { 
+	border: thick solid #000; 
+	overflow: hidden;
+	width: 90%;
+	}
+#izquierda { 
+	float: left; width: 40%; }
+#derecha { 
+	float: right; width: 40%; }
+
+#columna1, #columna2, #columna3 { 
+	padding-bottom: 32767px; margin-bottom: -32767px; 
+}
+
+#contenedor { display: table; }
+#contenidos { display: table-row; }
+#columna1, #columna2, #columna3 { display: table-cell; }
+
+#columna1{
+	background-color: blue; 
+	filter: shadow(color=#999999, direction=135, strength=2);
+	width: 35%;
+	filter: alpha(opacity=50);
+}
+
+#columna2{
+	background-color: white;
+	width: 35%;
+	filter: alpha(opacity=50);
+}
+
+#columna3{
+	background-color: red;
+	width: 35%;
+}
